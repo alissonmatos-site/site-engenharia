@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alisson Chaves | Engenharia Civil</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #fff;
+            line-height: 1.6;
+        }
+
+        section {
+            padding: 80px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: #f3f3f3;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            max-width: 750px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            max-width: 650px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 28px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        /* SERVIÇOS */
+
+        .services h2,
+        .compatibility h2,
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .service {
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .service h3 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        /* COMPATIBILIZAÇÃO */
+
+        .compatibility {
+            background: #222;
+            color: white;
+        }
+
+        .compatibility p {
+            font-size: 21px;
+            max-width: 750px;
+        }
+
+        .highlight {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        /* BENEFÍCIOS */
+
+        .benefits {
+            text-align: center;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .benefit h3 {
+            margin-bottom: 10px;
+        }
+
+        /* CONTATO */
+
+        .contact {
+            text-align: center;
+            background: #f3f3f3;
+        }
+
+        .contact p {
+            margin-bottom: 30px;
+            font-size: 19px;
+        }
+
+        /* CELULAR */
+
+        @media (max-width: 700px) {
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .services-grid,
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+
+    <section class="hero">
+        <div class="container">
+
+            <h1>
+                Todos os projetos da sua obra, compatibilizados antes de construir.
+            </h1>
+
+            <p>
+                Projetos arquitetônico, estrutural, elétrico e hidrossanitário
+                desenvolvidos de forma integrada.
+            </p>
+
+            <a 
+                class="button"
+                href="https://wa.me/5588999999999"
+                target="_blank">
+                Falar pelo WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- SERVIÇOS -->
+
+    <section class="services">
+        <div class="container">
+
+            <h2>Projetos de engenharia</h2>
+
+            <div class="services-grid">
+
+                <div class="service">
+                    <h3>Projeto Arquitetônico</h3>
+                    <p>
+                        Desenvolvimento dos espaços e soluções arquitetônicas
+                        para sua obra.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Projeto Estrutural</h3>
+                    <p>
+                        Dimensionamento e detalhamento da estrutura da edificação.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Projeto Elétrico</h3>
+                    <p>
+                        Planejamento e dimensionamento das instalações elétricas.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Projeto Hidrossanitário</h3>
+                    <p>
+                        Desenvolvimento das instalações de água e esgoto.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- COMPATIBILIZAÇÃO -->
+
+    <section class="compatibility">
+        <div class="container">
+
+            <p class="highlight">
+                Os projetos precisam conversar entre si.
+            </p>
+
+            <h2>
+                Compatibilização antes da obra.
+            </h2>
+
+            <p>
+                Arquitetura, estrutura, elétrica e hidráulica são analisadas
+                de forma integrada para identificar conflitos ainda na etapa
+                de projetos.
+            </p>
+
+            <br>
+
+            <p>
+                Encontrar um problema no projeto é muito mais barato do que
+                descobrir o mesmo problema durante a obra.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- BENEFÍCIOS -->
+
+    <section class="benefits">
+        <div class="container">
+
+            <h2>Mais planejamento. Menos imprevistos.</h2>
+
+            <div class="benefits-grid">
+
+                <div class="benefit">
+                    <h3>Menos retrabalho</h3>
+                    <p>
+                        Problemas são identificados antes de chegarem ao canteiro.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Mais previsibilidade</h3>
+                    <p>
+                        As decisões importantes são tomadas antes da execução.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <h3>Mais segurança</h3>
+                    <p>
+                        Projetos coordenados ajudam a reduzir improvisos durante
+                        a construção.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTATO -->
+
+    <section class="contact">
+        <div class="container">
+
+            <h2>Vamos conversar sobre sua obra?</h2>
+
+            <p>
+                Conte o que você pretende construir e descubra quais projetos
+                sua obra precisa.
+            </p>
+
+            <a 
+                class="button"
+                href="https://wa.me/5588999999999"
+                target="_blank">
+                Falar pelo WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+
+</body>
+</html>
